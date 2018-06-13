@@ -1,6 +1,4 @@
-os: windows10
-language: java
+sudo: required
 
-jdk:
-  - oraclejdk10
-
+services:
+  - docker
