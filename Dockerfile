@@ -2,7 +2,7 @@ FROM java:8
 
 COPY JavaBuild.java .
 
-RUN javac JavaAutoBuild.java
+RUN javac JavaBuild.java
 
 
 
